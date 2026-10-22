@@ -1,0 +1,165 @@
+.techno {
+    display: flex;
+    height: 100vh;
+}
+
+.category {
+    margin-left: 100px;
+    width: 500px;
+    background-color: #00132B;
+    border-right: 4px solid #0A0057;
+}
+
+.category p {
+    padding-top: 30px;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    cursor: default;
+}
+
+.techno ul {
+    list-style: none;
+    margin-top: 40px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.techno ul li {
+    width: fit-content;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.techno ul li:hover {
+    color: #0026FF;
+}
+
+.technologies {
+    width: 100%;
+    margin: 30px 100px 0 30px;   
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 30px;
+    cursor: default;
+}
+
+.title span {
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.562);
+}
+
+.search input {
+    padding: 10px;
+    background-color: #0A0057;
+    border-radius: 12px;
+    border: 3px solid #0579FF;
+    width: 400px;
+    color: white;
+}
+
+.categoryblock {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.categoryblock p {
+    background-color: #057aff35;
+    color: white;
+    font-weight: 700;
+    padding: 5px 25px;
+    border-radius: 15px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.categoryblock p:hover {
+    background-color: #0026FF;
+}
+
+.technologiescard {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 60px;
+}
+
+.technologiescard article{
+    background-color: #0A0057;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titlecard {
+    display: flex;
+}
+
+.cardtext {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.titlecard img {
+    width: 120px;
+    height: 120px;
+}
+
+.cardtext h2 {
+    font-size: 35px;
+    font-weight: 900;
+    cursor: default;
+}
+
+.cardtext span {
+    color: #3794fe;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #057aff99;
+    width: fit-content;
+    padding: 0 20px 3px 20px;
+    border-radius: 20px;
+    margin-top: 5px;
+    cursor: default;
+}
+
+.technologiescard p {
+    margin-top: 30px;
+    color: white;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.technologiescard .link {
+    width: fit-content;
+    margin-top: 55px;
+    color: #A34CFF;
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.5s ease; 
+}
+
+.technologiescard .link:hover {
+    color: #4B9FFF;
+}

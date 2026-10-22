@@ -1,0 +1,101 @@
+footer {
+    width: 100%;
+    height: 280px;
+    background-color: #0A0057;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footercategory {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 200px;
+}
+
+.footerlogo {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.logotype {
+    display: flex;
+    align-items: end;
+}
+
+.namelogo {
+    font-size: 38px;
+    color: white;
+    font-weight: bold;
+    cursor: default;
+}
+
+.namelogo span {
+    color: #0579FF;
+}
+
+.target {
+    font-size: 12px;
+    padding: 3px 15px;
+    width: 177px;
+    color: white;
+    background-color: #057affb3;
+    border-radius: 20px;
+    border: 2px solid #0026FF;
+    cursor: default;
+}
+
+.logotype img {
+    width: 100px;
+}
+
+.footerdodat {
+    display: flex;
+    gap: 120px;
+}
+
+.dodatpages span, .dodatcategory span {
+    color: white;
+    font-size: 21px;
+    font-weight: 700;
+    cursor: default;
+}
+
+.dodatpages ul, .dodatcategory ul {
+    margin-top: 10px;
+}
+
+.dodatpages ul li, .dodatcategory ul li {
+    list-style: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.dodatpages ul li:hover, .dodatcategory ul li:hover {
+    color: #0579FF;
+}
+
+.mediaicons {
+    display: flex;
+    gap: 15px;
+}
+
+.mediaicons img {
+    width: 40px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.mediaicons img:hover {
+    transform: scale(0.9);
+}
+
+.signature {
+    color: white;
+    font-size: 12px;
+    cursor: default;
+}

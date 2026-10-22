@@ -1,0 +1,75 @@
+.blocknotes {
+    display: flex;
+    height: 100vh;
+}
+
+.folder {
+    height: 100%;
+    width: 380px;
+    border-right: 4px solid #0A0057;
+    margin-left: 50px;
+}
+
+.folder p {
+    margin-top: 10px;
+    color: #4B9FFF;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.folder p:hover {
+    color: #0026FF;
+}
+
+.folder button {
+    margin-top: 70px;
+    padding: 0 12px 5px 12px;
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    border: none;
+    background-color: #0026FF;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.folder button:hover {
+    background-color: #7B00FF;
+}
+
+.textnotes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.title {
+    display: flex;
+    gap: 20px;
+}
+
+.imgnotes {
+    background-color: #0A0057;
+    border: 4px solid #0579FF;
+    padding: 20px 15px 20px 25px;
+    border-radius: 30px;
+}
+
+.imgnotes img {
+    width: 80px;
+}
+
+.titletext h1 {
+    font-size: 60px;
+    font-weight: 600;
+    cursor: default;
+}
+
+.titletext p {
+    font-size: 18px;
+    color: #4b9fff93;
+}
