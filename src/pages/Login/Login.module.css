@@ -1,0 +1,248 @@
+.registr {
+    margin: 20px 300px;
+    display: flex;
+    gap: 70px;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+} 
+
+.logo p {
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+    cursor: default;
+}
+
+.logo p span {
+    color: #0579FF;
+}
+
+.target {
+    font-size: 12px;
+    padding: 3px 15px;
+    width: 177px;
+    color: white;
+    background-color: #057affb3;
+    border-radius: 20px;
+    border: 2px solid #0026FF;
+    cursor: default;
+}
+
+.titletext {
+    font-size: 36px;
+    color: white;
+    font-weight: 800;
+    line-height: 40px;
+    cursor: default;
+}
+
+.title span {
+    color: #0579FF;
+}
+
+.laptopimg {
+    width: 350px;
+}
+
+.for {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.for img {
+    width: 30px;
+}
+
+.for p {
+    color: white;
+    font-size: 12px;
+    cursor: default;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+} 
+
+.in {
+    color: white;
+    margin-left: auto;
+}
+
+.in span {
+    color: #0579FF;
+    cursor: pointer;
+}
+
+.loginblock {
+    width: 100%;
+    height: 100%;
+    background-color: #0A0057;
+    border-radius: 30px;
+    border: 3px solid #0026FF;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px 40px;
+}
+
+h3 {
+    color: white;
+    font-size: 40px;
+    cursor: default;
+}
+
+.subtitle {
+    color: rgba(255, 255, 255, 0.658);
+    font-size: 12px;
+}
+
+.loginform {
+    margin-top: 30px;
+}
+
+.loginform p {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+    cursor: default;
+}
+
+.loginform input {
+    background-color: #0A0057;
+    border: 2px solid #0026FF;
+    border-radius: 10px;
+    padding: 10px;
+    width: 400px;
+    margin-top: 8px;
+    color: white;
+}
+
+.loginform input::placeholder {
+    color: #0026FF;
+}
+
+.paroloptions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.remember p {
+    color: white;
+    font-size: 12px;
+    cursor: default;
+}
+
+.forgot {
+    color: #0579FF;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.forgot:hover {
+    color: #0026FF;
+}
+
+.loginbtn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.loginbtn button {
+    margin-top: 40px;
+    height: 50px;
+    width: 300px;
+    font-size: 26px;
+    font-weight: 600;
+    color: white;
+    background-color: #0579FF;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.loginbtn button:hover {
+    background-color: #0026FF;
+    transform: scale(0.98);
+}
+
+.social {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social p {
+    color: rgba(255, 255, 255, 0.695);
+    cursor: default;
+}
+
+.media {
+    margin: 17px 0;
+    display: flex;
+    gap: 30px;
+}
+
+.mediablock {
+    width: 165px;
+    height: 50px;
+    background-color: #0A0057;
+    border-radius: 10px;
+    border: 3px solid #0026FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.mediablock:hover {
+    background-color: #0e0172;
+}
+
+.mediablock p {
+    color: white;
+}
+
+.mediablock img {
+    width: 30px;
+    height: 30px;
+}
+
+.line {
+    height: 1px;
+    width: 150px;
+    background-color: white;
+}
+
+

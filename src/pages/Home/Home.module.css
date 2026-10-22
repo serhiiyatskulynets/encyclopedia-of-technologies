@@ -1,0 +1,268 @@
+.representation {
+    margin: 40px 0 30px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.represtext {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.target {
+    font-size: 12px;
+    padding: 3px 15px;
+    width: 177px;
+    color: white;
+    background-color: #057affb3;
+    border-radius: 20px;
+    border: 2px solid #0026FF;
+    cursor: default;
+}
+
+h1 {
+    width: 520px;
+    font-size: 70px;
+    color: white;
+    cursor: default;
+    line-height: 80px;
+}
+
+h1 span {
+    color: #7B00FF;
+}
+
+.description {
+    color: white;
+    width: 400px;
+    font-size: 25px;
+    cursor: default;
+}
+
+.representation img {
+    width: 820px;
+}
+
+.statics {
+    background-color: #0A0057;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 85px;
+}
+
+.staticblock {
+    background-color: #057affc4;
+    width: 250px;
+    height: 100px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 0 15px 0 40px;
+    box-shadow: 0 10px 10px #00132B;
+}
+
+.staticblock span {
+    font-size: 40px;
+    color: white;
+    font-weight: 800;
+    cursor: default;
+}
+
+.staticblock p {
+    color: rgba(255, 255, 255, 0.764);
+    font-size: 22px;
+    cursor: default;
+}
+
+.category, .technologies {
+    margin: 30px 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    cursor: default;
+}
+
+.popularcategory {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.categoryblock {
+    width: 200px;
+    height: 200px;
+    padding: 10px 25px;
+    background-color: #0A0057;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.categoryimg {
+    width: 110px;
+}
+
+.categoryblock span {
+    font-size: 25px;
+    font-weight: 700;
+    color: #7B00FF;
+}
+
+.categoryblock p {
+    color: white;
+    font-size: 20px;
+}
+
+.technologies {
+    margin-top: 90px;
+}
+
+.populartechn {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.technblock {
+    width: 480px;
+    height: 300px;
+    background-color: #0A0057;
+    border: 3px solid #7B00FF;
+}
+
+.recomendation {
+    margin: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.recomendationblock {
+    width: 100%;
+    height: 440px;
+    background-color: #0A0057;
+    border-radius: 70px;
+    border: 3px solid #0579FF;
+    box-sizing: border-box;
+    padding: 20px 30px;
+    display: flex;
+    gap: 40px;
+}
+
+.recicons img {
+    width: 260px;
+}
+
+.rectext {
+    width: 500px;
+}
+
+.rectitle {
+    color: #0579FF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.rectext h3 {
+    color: white;
+    font-size: 55px;
+}
+
+.rectext span {
+    color: white;
+    background-color: #057affca;
+    font-size: 14px;
+    padding: 2px 10px;
+    border-radius: 20px;
+    cursor: default;
+}
+
+.rectext .text {
+    color: white;
+    font-size: 23px;
+    margin-top: 5px;
+}
+
+.rectext button {
+    margin-top: 29px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #0579FF;
+    border: none;
+    border-radius: 20px;
+    padding: 0 12px 2px 12px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.rectext button:hover {
+    background-color: #7B00FF;
+}
+
+.recexample {
+    display: flex;
+    align-items: center;
+}
+
+.exampleblock {
+    width: 450px;
+    height: 300px;
+    background-color: #05002D;
+    border-radius: 30px;
+}
+
+.exampleblock p {
+    color: white;
+    padding-left: 20px;
+    font-size: 30px;
+    cursor: default;
+}
+
+.exampleblock img {
+    width: 100%;
+    height: 265px;
+    border-radius: 30px;
+}
+
+.why {
+    margin: 0 80px 120px 80px;
+}
+
+.descriptions {
+    margin-top: 30px;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.descriptblock {
+    width: 660px;
+    height: 200px;
+    background-color: #0579FF;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.title {
+    color: #05002D;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.textwhy {
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+

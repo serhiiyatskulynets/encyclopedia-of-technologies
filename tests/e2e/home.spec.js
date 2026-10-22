@@ -4,6 +4,6 @@ test("головна сторінка відкривається", async ({ page
   await page.goto("/");
 
   await expect(
-    page.getByRole("heading", { name: "Енциклопедія технологій" }),
+    page.getByRole("heading", { name: "Encyclopedia of Technologies" }),
   ).toBeVisible();
 });
