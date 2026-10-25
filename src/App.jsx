@@ -4,19 +4,21 @@ import Technologies from "./pages/Technologies/Technologies";
 import Notes from "./pages/Notes/Notes";
 import Login from "./pages/Login/Login";
 import TechDetails from "./pages/TechnologiesDetails/TechDetails";
+import NotFound from "./pages/NotFound/NotFound";
 
 function App() {
-    return (
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/technologies" element={<Technologies />} />
-          <Route path="/notes" element={<Notes />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/technologiesdetailes/:slug" element={<TechDetails />} /> 
-        </Routes>
-      </BrowserRouter>
-    );
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/technologies" element={<Technologies />} />
+        <Route path="/notes" element={<Notes />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/technologiesdetailes/:slug" element={<TechDetails />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App;
