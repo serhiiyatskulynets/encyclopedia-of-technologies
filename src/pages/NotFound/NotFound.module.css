@@ -1,0 +1,57 @@
+.error {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  gap: 50px;
+}
+
+.mem {
+  display: flex;
+  align-items: end;
+}
+
+.mem img {
+  width: 420px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #080042;
+  padding: 0 20px;
+}
+
+.text h1 {
+  text-align: center;
+  font-size: 150px;
+  margin-bottom: 40px;
+  cursor: default;
+}
+
+.text p {
+  color: #4b9fff;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.text span {
+  color: rgba(255, 255, 255, 0.714);
+  font-size: 15px;
+}
+
+.text a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #4b9fff;
+  padding: 10px 30px;
+  margin-top: 50px;
+  transition: all 0.5s ease;
+}
+
+.text a:hover {
+  background-color: #7b00ff;
+}
