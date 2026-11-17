@@ -1,26 +1,13 @@
-import { registerUser, loginUser, getCurrentUser, } from '../controllers/authController.js';
+import { Router } from 'express';
 
-export async function handleAuthRoutes(req, res, url, sendResponse) {
-    if (
-        url.pathname === '/api/auth/register' &&
-        req.method === 'POST'
-    ) {
-        return registerUser(req, res, sendResponse);
-    }
+import {registerUser, loginUser, getCurrentUser,} from '../controllers/authController.js';
 
-    if (
-        url.pathname === '/api/auth/login' &&
-        req.method === 'POST'
-    ) {
-        return loginUser(req, res, sendResponse);
-    }
+import { authenticateToken } from '../middleware/authMiddleware.js';
 
-    if (
-        url.pathname === '/api/auth/me' &&
-        req.method === 'GET'
-    ) {
-        return getCurrentUser(req, res, sendResponse);
-    }
+const router = Router();
 
-    return false;
-}
+router.post('/register', registerUser);
+router.post('/login', loginUser);
+router.get('/me', authenticateToken, getCurrentUser);
+
+export default router;

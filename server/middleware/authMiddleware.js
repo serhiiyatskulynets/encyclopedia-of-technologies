@@ -1,29 +1,25 @@
 import jwt from 'jsonwebtoken';
 
-export function authenticateToken(req, res, sendResponse) {
-   
+export function authenticateToken(req, res, next) {
     const authHeader = req.headers.authorization;
 
     if (!authHeader || !authHeader.startsWith('Bearer ')) {
-        sendResponse(res, 401, {
+        return res.status(401).json({
             message: 'Access token is required',
         });
-
-        return null;
     }
 
     const token = authHeader.split(' ')[1];
 
     try {
-       
         const decoded = jwt.verify(token, process.env.JWT_SECRET);
 
-        return decoded;
+        req.user = decoded;
+
+        next();
     } catch {
-        sendResponse(res, 403, {
+        return res.status(403).json({
             message: 'Invalid or expired token',
         });
-
-        return null;
     }
 }
